@@ -28,7 +28,7 @@ HTML
 
 `#onButton` and `#offButton` are to be replaced with whatever elements (div, img, etc.) that will act as the 'on' and 'off' switches, respectively.
 
-In the [demo](http://emdecr.github.io/commentary/), I used two divs with fixed position, so they were visible. I gave the 'on' button an id of `#onButton` and the 'off' button an id `#offButton`. This just makes things a bit more semantic, and easier for you to distinguish these key components.
+In the [demo](http://emdecr.github.io/commentary/), I used two divs with fixed position, so they were visible all the way down the page. I gave the 'on' button an id of `#onButton` and the 'off' button an id `#offButton`. This just makes things a bit more semantic, and easier for you to distinguish these key components.
 
 ###Adding Actual Commentary
 
