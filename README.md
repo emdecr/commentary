@@ -8,7 +8,7 @@ This jQuery plugin was created for Week 6 of [HackerYou](http://hackeryou.com/)'
 
 When *Commentary* is turned on by the user, they'll see chunks of highlighted text/content. When the user clicks on the highlights, new commentary written by you will appear close by. It's like the Director's Commentary in the Special Features on DVDs (*I still buy them*) – but for the web. 
 
-####[demo](http://emdecr.github.io/commentary/)
+####[Demo](http://emdecr.github.io/commentary/)
 
 ###Getting Started 
 
