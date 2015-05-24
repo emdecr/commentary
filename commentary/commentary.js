@@ -1,18 +1,7 @@
-// // when you click the on button – commentary shows
-// $('#onButton').on('click', function() {
-// 	$('.cmmtRef').addClass('highlight');
-
-// 	// only when the text is highlighted
-// 		// when the user mouseovers, show commentary bubble
-// 	if ($(".sampleClass").css("float") == "none" ){
-// 	       // your code here
-// 	   }
-// });
-
-// // when you click the off button - commentary disappears
-// $('#offButton').on('click', function() {
-// 	$('.cmmtRef').removeClass('highlight');
-// });
+//'Commentary' was created by Emily Dela Cruz
+	// http://emilydelacruz.com
+// Fork this on GitHub
+	// https://github.com/emdecr/commentary
 
 $('.cmmtBub').hide();
 
@@ -42,7 +31,7 @@ $.fn.commentaryOn = function() {
 		// when the user mouseovers, show commentary bubble
 		$('.highlight').on('click', function() {
 			$(this).css('cursor', 'help');
-			$(this).siblings('.cmmtBub').show(1000);
+			$(this).next('.cmmtBub').show(700);
 		});
 
 	}); //end of on-click for onButton
@@ -78,7 +67,7 @@ $.fn.commentaryOff = function() {
 
 		$('.noHighlight').on('click', function() {
 			$(this).css('cursor', 'auto');
-			$(this).siblings('.cmmtBub').hide();
+			$(this).next('.cmmtBub').hide();
 		});
 
 	}); //end of on-click for offButton
